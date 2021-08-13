@@ -1,5 +1,5 @@
-let segundos = 50
-let minutos = 57
+let segundos = 59
+let minutos = 59
 let horas = 0
 basic.forever(function () {
     if (segundos < 59) {
