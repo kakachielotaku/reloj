@@ -15,7 +15,7 @@ basic.forever(function () {
     } else {
         minutos = 0
     }
-    if (horas < 59) {
+    if (horas < 12) {
         horas += 1
     } else {
         horas = 0
