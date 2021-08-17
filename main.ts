@@ -1,13 +1,16 @@
-let segundos = 59
-let minutos = 59
 let horas = 0
+let minutos = 0
+let segundos = 0
+segundos += 58
+minutos += 58
+horas += 12
 basic.forever(function () {
-    if (segundos < 59) {
+    if (segundos < 58) {
         segundos += 1
     } else {
         segundos = 0
     }
-    if (minutos < 59) {
+    if (minutos < 58) {
         minutos += 1
     } else {
         minutos = 0
